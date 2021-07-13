@@ -13,7 +13,8 @@ def run():
         print(f"A vez é do {turn}")
         printBoard(board)
 
-        choice = input("Informe qual casa você quer marcar: ")
+        choice = input(
+            "(Baseado no teclado numérico) Informe qual casa você quer marcar: ")
 
         if not (choice in board.keys()):
             print('Escolha uma opção válida')
